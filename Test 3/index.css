@@ -1,0 +1,228 @@
+* {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  background-color: #fff;
+  padding: 18px;
+}
+.container-navbar {
+  max-width: 1140px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+.logo {
+  margin-right: 20px;
+}
+.logo img {
+  width: 100px;
+  height: 45px;
+}
+header nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  align-items: center;
+}
+header nav ul li {
+  padding: 13px 20px;
+}
+header nav ul li a {
+  color: #353d49;
+  text-decoration: none;
+  font-weight: 500;
+}
+header nav ul li a.active {
+  color: #28a0f6;
+  text-decoration: underline;
+}
+header nav ul li a:hover {
+  color: #28a0f6;
+}
+.btn {
+  background-color: #28a0f6;
+  color: #fff;
+  padding: 10px 30px;
+  border-radius: 8px;
+  text-align: center;
+  text-decoration: none;
+}
+.btn:hover {
+  background-color: #ff8b49;
+  color: #fff;
+}
+main .wrap-service p {
+  color: #28a0f6;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+main .wrap-heading {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+main .wrap-heading .wrap-arrow {
+  display: flex;
+  flex-direction: row;
+}
+main .wrap-heading .wrap-arrow .button-next {
+  background-color: #f7dac9;
+  color: #ff8b49;
+  border-radius: 8px;
+  padding: 8px 20px;
+  font-size: 14px;
+  margin: 5px;
+  cursor: pointer;
+}
+main .wrap-heading .wrap-arrow .button-next:hover {
+  background-color: #dddd;
+  color: #ff8b49;
+}
+main .wrap-heading .wrap-arrow .button-prev {
+  background-color: #f7dac9;
+  color: #ff8b49;
+  border-radius: 8px;
+  padding: 8px 20px;
+  font-size: 14px;
+  margin: 5px;
+  cursor: pointer;
+}
+main .wrap-heading .wrap-arrow .button-prev:hover {
+  background-color: #dddd;
+  color: #ff8b49;
+}
+main .wrap-heading .wrap-arrow .button-next-testimonial {
+  background-color: #f7dac9;
+  color: #ff8b49;
+  border-radius: 8px;
+  padding: 8px 20px;
+  font-size: 14px;
+  margin: 5px;
+  cursor: pointer;
+}
+main .wrap-heading .wrap-arrow .button-next-testimonial:hover {
+  background-color: #dddd;
+  color: #ff8b49;
+}
+main .wrap-heading .wrap-arrow .button-prev-testimonial {
+  background-color: #f7dac9;
+  color: #ff8b49;
+  border-radius: 8px;
+  padding: 8px 20px;
+  font-size: 14px;
+  margin: 5px;
+  cursor: pointer;
+}
+main .wrap-heading .wrap-arrow .button-prev-testimonial:hover {
+  background-color: #dddd;
+  color: #ff8b49;
+}
+main .wrap-heading .wrap-arrow .button-prev-our-products {
+  background-color: #f7dac9;
+  color: #ff8b49;
+  border-radius: 8px;
+  padding: 8px 20px;
+  font-size: 14px;
+  margin: 5px;
+  cursor: pointer;
+}
+main .wrap-heading .wrap-arrow .button-prev-our-products:hover {
+  background-color: #dddd;
+  color: #ff8b49;
+}
+main .wrap-heading .wrap-arrow .button-next-our-products {
+  background-color: #f7dac9;
+  color: #ff8b49;
+  border-radius: 8px;
+  padding: 8px 20px;
+  font-size: 14px;
+  margin: 5px;
+  cursor: pointer;
+}
+main .wrap-heading .wrap-arrow .button-next-our-products:hover {
+  background-color: #dddd;
+  color: #ff8b49;
+}
+main .wrap-heading h2 {
+  color: #353d49;
+  font-size: 36px;
+  font-weight: bold;
+}
+section {
+  margin-top: 100px;
+}
+.swiper {
+  width: 1140px;
+  margin-top: 40px;
+}
+main .card .image {
+  width: 100px;
+  height: 100px;
+}
+main .card .image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.card .card-content {
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+}
+.card .card-content.align-center {
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.card .title {
+  color: #353d49;
+  font-size: 24px;
+  font-weight: 600;
+  margin-top: 12px;
+}
+.card .text-content {
+  color: #828282;
+  font-size: 14px;
+  font-weight: 400;
+  margin-top: 16px;
+}
+.card .btn-more {
+  text-decoration: none;
+  margin-top: 15px;
+  font-size: 12px;
+  font-weight: 600;
+  color: #28a0f6;
+}
+.card .wrap-quote {
+  padding: 5px;
+  background-color: #ff8b49;
+  border-radius: 20px;
+  color: #fff;
+}
+.wrap-heading p {
+  color: #ff8b49;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+figure.image img.img-our-products {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
